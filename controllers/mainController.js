@@ -19165,7 +19165,7 @@ cron.schedule("01 00 * * *", async () => {
     console.log("🚀 Starting calculateAndSavePoolReportsByAllWallets...");
     await exports.calculateAndSavePoolReportsByAllWallets(null, null);
 
-    console.log("🚀 Starting SaveDailyWalletReportsAggregates...");
+    console.log("🚀 Starting SaveDailyWalletReportsAggregatessss...");
     await exports.SaveDailyWalletReportsAggregates(null, null);
 
     console.log("✅ All cron tasks finished successfully.");
